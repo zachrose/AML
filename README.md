@@ -2,7 +2,7 @@
 
 This is a coding challenge type of thing. The idea is that there are some aliens who have a markup language that's like HTML except that it has a different syntax and it allows tags to be closed without being strictly nested. In HTML syntax, this would look like:
 
-  <b>This is bold <i>and italic</b> and just italic</i> and normal.
+  `<b>This is bold <i>and italic</b> and just italic</i> and normal.`
 
 The coding challenge part is to make a JavaScript function that takes a string of AML and returns a valid and equivalent HTML string.
 
