@@ -119,7 +119,7 @@ const tagsToClose = function(tagStack, tag) {
  * @returns {HtmlTagName[]} A list of tags to re-open
  * @example
  * // returns ['strong', 'u']
- * tagsToClose(['em', 'strong', 'u'], 'em')
+ * tagsToOpen(['em', 'strong', 'u'], 'em')
  */
 const tagsToOpen = function(tagStack, tag) {
   return tagStack.reduceRight(function(memo, tagFromStack) {
